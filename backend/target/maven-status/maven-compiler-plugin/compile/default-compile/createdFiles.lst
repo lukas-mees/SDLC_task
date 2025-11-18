@@ -1,0 +1,7 @@
+com/example/taskmanager/repository/TaskRepository.class
+com/example/taskmanager/exception/ResourceNotFoundException.class
+com/example/taskmanager/TaskManagerApplication.class
+com/example/taskmanager/exception/GlobalExceptionHandler.class
+com/example/taskmanager/model/Status.class
+com/example/taskmanager/controller/TaskController.class
+com/example/taskmanager/model/Task.class

@@ -1,0 +1,7 @@
+/Users/lukas.mees/SDLC_task/backend/src/main/java/com/example/taskmanager/repository/TaskRepository.java
+/Users/lukas.mees/SDLC_task/backend/src/main/java/com/example/taskmanager/TaskManagerApplication.java
+/Users/lukas.mees/SDLC_task/backend/src/main/java/com/example/taskmanager/model/Status.java
+/Users/lukas.mees/SDLC_task/backend/src/main/java/com/example/taskmanager/controller/TaskController.java
+/Users/lukas.mees/SDLC_task/backend/src/main/java/com/example/taskmanager/exception/ResourceNotFoundException.java
+/Users/lukas.mees/SDLC_task/backend/src/main/java/com/example/taskmanager/exception/GlobalExceptionHandler.java
+/Users/lukas.mees/SDLC_task/backend/src/main/java/com/example/taskmanager/model/Task.java

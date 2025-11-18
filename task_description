@@ -1,0 +1,54 @@
+Task: 
+Create a web application that allows users to manage tasks. The app should support basic CRUD operations: Create, Read, Update, and Delete.
+
+Tech Stack:
+Frontend: React with Typescript and material UI
+Backend: Spring Boot
+Database: In-Memory(H2)
+Build Tools:
+    Frontend: Vite
+    Backend: Maven
+Communication: REST API with JSON
+
+A Task Entity should look like this:
+Task {
+    id: number (auto-generated)
+    title: string (required, max 100 characters)
+    description: string (optional, max 500 characters)
+    status: enum ["TODO", "IN_PROGRESS", "DONE"]
+    dueDate: date (optional)
+}
+
+Functional Requirements:
+· A home page that lists all tasks.
+
+· A form to add a new task.
+
+· Options to edit and delete existing tasks.
+
+· Status should be changeable via dropdown.
+
+· Optional: Sort tasks by status or due date.
+
+· Form validations (e.g., required fields, character limits).
+
+· Display error messages on server/API failures.
+
+Backend:
+· Expose a REST API with the following endpoints:
+
+o GET /api/tasks – Retrieve all tasks
+
+o GET /api/tasks/{id} – Retrieve a task by ID
+
+o POST /api/tasks – Create a new task
+
+o PUT /api/tasks/{id} – Update a task
+
+o DELETE /api/tasks/{id} – Delete a task
+
+· Validate input using Bean Validation (e.g., @NotBlank, @Size)
+
+· Store data in an H2 database (or PostgreSQL)
+
+· Enable CORS to allow frontend-backend communicatio
