@@ -1,0 +1,63 @@
+# Node
+/frontend/node_modules/
+/frontend/dist/
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Vite build
+/frontend/.vite/
+/frontend/build/
+
+# Typescript
+*.tsbuildinfo
+
+# Logs
+*.log
+logs/
+
+# Java / Maven
+/backend/target/
+/target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Spring Boot
+.factorypath
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+/.classpath
+/.project
+/.settings/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Coverage
+coverage/
+coverage-final.json
+
+# Temporary
+/tmp
+
+# npm cache
+.npm/
+
+# Generated lockfiles (optional - keep if you prefer)
+#/frontend/package-lock.json
